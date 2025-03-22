@@ -295,7 +295,7 @@ def process_input(text: str, count: int, seed: int, template: str,
             # Update all outputs, showing the latest model in Model3D
             yield [status, *model_updates, *info_updates, glb_path, gr.update(choices=model_options, value=glb_path), updated_model_list, glb_path]
         else:
-            # If GLB isn’t saved, don’t update viewer or dropdown
+            # If GLB isn't saved, don't update viewer or dropdown
             yield [status, *model_updates, *info_updates, None, gr.update(choices=model_options, value=None), updated_model_list, None]
     
     # Final status with proper pluralization
@@ -312,7 +312,8 @@ def load_model(selected_path: str) -> str:
 
 # Create Gradio interface
 with gr.Blocks(theme=gr.themes.Default()) as demo:
-    gr.Markdown("# Cube3D Generator")
+    gr.Markdown("# Cube3D Generator Gradio Interface")
+    gr.Markdown("[GitHub Repository](https://github.com/MNeMoNiCuZ?tab=repositories)")
     
     with gr.Row():
         # Left column - Controls
