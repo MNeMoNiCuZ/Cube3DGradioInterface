@@ -1,6 +1,11 @@
 # What is Cube3D Gradio Interface?
 Cube3D Gradio Interface is a simple yet functional interface for generating one or more files with [Cube3D by Roblox](https://github.com/Roblox/cube).
 
+You can also try the model in their online demo interface: [https://huggingface.co/spaces/Roblox/cube3d-interactive](https://huggingface.co/spaces/Roblox/cube3d-interactive)
+
+![image](https://github.com/user-attachments/assets/76a76330-848e-4309-8e17-fddb24e4598b)
+
+
 # Installation Instructions
 1. Git clone this repository 
   
