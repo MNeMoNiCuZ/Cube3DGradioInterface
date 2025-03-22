@@ -312,8 +312,7 @@ def load_model(selected_path: str) -> str:
 
 # Create Gradio interface
 with gr.Blocks(theme=gr.themes.Default()) as demo:
-    gr.Markdown("# Cube3D Generator Gradio Interface")
-    gr.Markdown("[GitHub Repository](https://github.com/MNeMoNiCuZ?tab=repositories)")
+    gr.Markdown("# Cube3D Generator Gradio Interface - [GitHub Repository](https://github.com/MNeMoNiCuZ/Cube3DGradioInterface)")
     
     with gr.Row():
         # Left column - Controls
