@@ -3,8 +3,7 @@ Cube3D Gradio Interface is a simple yet functional interface for generating one 
 
 You can also try the model in their online demo interface: [https://huggingface.co/spaces/Roblox/cube3d-interactive](https://huggingface.co/spaces/Roblox/cube3d-interactive)
 
-![image](https://github.com/user-attachments/assets/76a76330-848e-4309-8e17-fddb24e4598b)
-
+![image](https://github.com/user-attachments/assets/c79c2d31-0df2-4881-983a-463cb877457f)
 
 # Installation Instructions
 1. Git clone this repository 
