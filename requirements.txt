@@ -1,0 +1,4 @@
+trimesh
+gradio
+numpy
+warp-lang
