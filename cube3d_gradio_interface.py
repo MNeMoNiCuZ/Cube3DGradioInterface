@@ -311,7 +311,7 @@ def load_model(selected_path: str) -> str:
     return "Failed to load model"
 
 # Create Gradio interface
-with gr.Blocks(theme=gr.themes.Default()) as demo:
+with gr.Blocks(title="Cube3D Generator Gradio Interface", theme=gr.themes.Default()) as demo:
     gr.Markdown("# Cube3D Generator Gradio Interface - [GitHub Repository](https://github.com/MNeMoNiCuZ/Cube3DGradioInterface)")
     
     with gr.Row():
@@ -335,7 +335,7 @@ with gr.Blocks(theme=gr.themes.Default()) as demo:
                     append_seed = gr.Checkbox(
                         label="Add seed to prompt",
                         value=True,
-                        info="Temporarily append the seed to the prompt to ensure reproducible results. This is a temporary solution until seed functionality is fixed."
+                        info="Append the seed to the prompt for slight random variations."
                     )
             
             # Generation Settings
@@ -355,7 +355,7 @@ with gr.Blocks(theme=gr.themes.Default()) as demo:
                         value=-1,
                         minimum=-1,
                         step=1,
-                        info="Set a specific seed for reproducible results. Use -1 for random generation each time."
+                        info="Set a specific seed for reproducible results. Use -1 for random generation each time. Placeholder functionality."
                     )
                 resolution_base = gr.Slider(
                     label="Resolution Base",
